@@ -1,3 +1,5 @@
+<!-- CI detection fixture README -->
+
 # CI detection fixture
 
 Root azure-pipelines.yml with a `script:` step.
