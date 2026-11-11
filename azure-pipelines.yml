@@ -1,0 +1,11 @@
+trigger:
+  - main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+  - script: npm ci
+    displayName: Install
+  - script: npm test
+    displayName: Test
